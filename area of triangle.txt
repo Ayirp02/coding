@@ -1,0 +1,4 @@
+height=14.3
+breadth=16.3
+area=0.5*height*breadth
+print("the area of triangle is :",area)

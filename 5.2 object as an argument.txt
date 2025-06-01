@@ -1,0 +1,8 @@
+class Student:
+    def __init__(self, name, marks):
+        self.name=name
+        self.marks=marks
+def print_student_info(Student):
+    print(f"Name:{Student.name},marks:{Student.marks}")
+s1=Student("Hari",97)
+print_student_info(s1)

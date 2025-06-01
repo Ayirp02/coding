@@ -1,0 +1,5 @@
+n=int(input("enter a no:"))
+if n>=1 and n<=100:
+    print("the no", n,"is in bw 1 & 100")
+else:
+    print("the no",n,"is not bw 1 & 100")

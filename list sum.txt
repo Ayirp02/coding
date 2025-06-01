@@ -1,0 +1,6 @@
+mylist=input("enter a list of no.s")
+mylist=list(map(int,mylist.split()))
+sum=0
+for x in mylist:
+    sum=sum+x
+print("the sum value is",sum)

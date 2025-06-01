@@ -1,0 +1,11 @@
+n=int(input("enter a num :"))
+if n==0:
+    print("zero")
+elif n==1:
+    print("one")
+elif n==2:
+    print("two")
+elif n==4:
+    print("four")
+else:
+    print("enter valid num")

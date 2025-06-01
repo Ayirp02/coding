@@ -1,0 +1,11 @@
+n=int(input("Enter the value of n:"))
+mylist=[]
+for i in range(n):
+    num=int(input("Enter a number:"))
+    mylist.append(num)
+print("Every numbers are")
+print("[",end=" ")
+for num in mylist:s
+        if num%2==0:
+            print(num,end=",")
+print("]")
