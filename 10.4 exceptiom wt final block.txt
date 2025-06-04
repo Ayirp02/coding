@@ -1,0 +1,12 @@
+try:
+
+    file = open("my file.text", "r")
+
+except IOError:
+
+    print("Error: unable to read the file!")
+finally:
+
+    if file:
+
+        file.close()

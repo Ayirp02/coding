@@ -1,0 +1,15 @@
+try:
+
+    num=int(input("enter a no.:"))
+    result=10/num
+
+    print("result:",result)
+
+except ValueError:
+
+    print("error:invalid input!please enter a valid no.")
+
+except ZeroDivisionError:
+
+    print("error:divison by zero!")
+    
