@@ -1,0 +1,5 @@
+f=open("c:\\Users\\harika\\Desktop\\sravani\\copy.c","r")
+print("file object is opened")
+print(f)
+data=f.read()
+print(data)
