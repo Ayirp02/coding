@@ -1,0 +1,32 @@
+class MyClass:
+
+    def __init__(self):
+
+        self.public_attribute="i am a public attribute"
+
+        self.protected_attribute="i am a protected attribute"
+
+        self.private_attribute="i am a private attribute"
+
+    def public_method(self):
+        print("i am a protected public method")
+       def protected_method(self):
+
+        print("i am protected method")
+
+    def private_method(self):
+
+        print("ia m private method")
+
+obj=MyClass()
+
+print(obj.public_attribute)
+
+obj.public_method()
+
+print(obj.protected_attribute)
+obj.protected_method()
+
+print(obj.private_attribute)
+
+obj.private_method()
